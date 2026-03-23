@@ -1,0 +1,34 @@
+<svg width="520" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scatter plot with regression line and residuals">
+  <!-- Axes -->
+  <line x1="50" y1="250" x2="350" y2="250" stroke="#666666" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="50" stroke="#666666" stroke-width="2"/>
+  
+  <!-- Regression line -->
+  <line x1="60" y1="220" x2="340" y2="80" stroke="#7ab8ff" stroke-width="3" />
+  
+  <!-- Data points -->
+  <circle cx="80" cy="210" r="6" fill="#60b060" />
+  <circle cx="130" cy="180" r="6" fill="#60b060" />
+  <circle cx="180" cy="130" r="6" fill="#60b060" />
+  <circle cx="230" cy="100" r="6" fill="#60b060" />
+  <circle cx="280" cy="70" r="6" fill="#60b060" />
+  
+  <!-- Residuals (vertical lines) -->
+  <!-- positive residual -->
+  <line x1="80" y1="210" x2="80" y2="200" stroke="#90ee90" stroke-width="2" stroke-dasharray="4 2" />
+  <!-- negative residual -->
+  <line x1="130" y1="180" x2="130" y2="190" stroke="#ff7b5a" stroke-width="2" stroke-dasharray="4 2" />
+  <!-- positive residual -->
+  <line x1="180" y1="130" x2="180" y2="120" stroke="#90ee90" stroke-width="2" stroke-dasharray="4 2" />
+  <!-- positive residual -->
+  <line x1="230" y1="100" x2="230" y2="90" stroke="#90ee90" stroke-width="2" stroke-dasharray="4 2" />
+  <!-- positive residual -->
+  <line x1="280" y1="70" x2="280" y2="60" stroke="#90ee90" stroke-width="2" stroke-dasharray="4 2" />
+  
+  <!-- Labels -->
+  <text x="180" y="280" font-family="Arial" font-size="14" fill="#666666">Study Hours</text>
+  <text transform="rotate(-90)" x="-150" y="20" font-family="Arial" font-size="14" fill="#666666">Exam Score</text>
+  
+  <!-- Title -->
+  <text x="140" y="40" font-family="Arial" font-size="16" fill="#7ab8ff" font-weight="bold">Scatter Plot with Regression Line &amp; Residuals</text>
+</svg>
